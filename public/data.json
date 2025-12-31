@@ -1,0 +1,24 @@
+{
+  "tenants": {
+    "coffee": {
+      "business_name": "Espresso Bar",
+      "theme_id": "theme-01",
+      "theme_config": {
+        "primary_color": "#4b2c20",
+        "secondary_color": "#b58463",
+        "font_family": "serif"
+      },
+      "homepage_content": { "hero_title": "Fresh Morning Brew" }
+    },
+    "tech": {
+      "business_name": "NextGen Tech",
+      "theme_id": "theme-02",
+      "theme_config": {
+        "primary_color": "#0ea5e9",
+        "secondary_color": "#b58463",
+        "font_family": "sans-serif"
+      },
+      "homepage_content": { "hero_title": "Building the Future" }
+    }
+  }
+}
