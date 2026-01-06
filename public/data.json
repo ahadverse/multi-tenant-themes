@@ -210,6 +210,7 @@
     "daraz-mart": {
       "business_name": "DarazMart",
       "theme_id": "daraz-mart",
+      "theme_url": "daraz-mart",
       "theme_config": {
         "primary_color": "#f57224",
         "secondary_color": "#212121",
