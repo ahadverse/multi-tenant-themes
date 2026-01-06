@@ -8,8 +8,8 @@ export default function middleware(req) {
   const url = req.nextUrl;
   const hostname = req.headers.get("host");
 
-  const rootDomain = process.env.NEXT_PUBLIC_ROOT_DOMAIN || "localhost:3000";
-
+  const rootDomain = process.env.NEXT_PUBLIC_LIVEURL || "localhost:3000";
+  console.log(rootDomain);
   let tenantIdentifier = "";
 
   if (hostname === rootDomain || hostname === "www." + rootDomain) {
