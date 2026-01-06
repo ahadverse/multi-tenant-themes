@@ -23,9 +23,9 @@
     color: var(--foreground);
   }
 
-  /* Typography */
-  .font-sans {
-    font-family: var(--font-sans);
+  .theme-font {
+    /* Ensure there is a fallback after the variable */
+    font-family: var(--font-sans, sans-serif);
   }
 
   /* Radius */

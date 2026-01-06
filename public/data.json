@@ -1,24 +1,382 @@
 {
   "tenants": {
     "coffee": {
-      "business_name": "Espresso Bar",
-      "theme_id": "theme-01",
+      "business_name": "Coffee Cap",
+      "theme_id": "theme-coffee",
       "theme_config": {
         "primary_color": "#4b2c20",
-        "secondary_color": "#b58463",
-        "font_family": "serif"
+        "secondary_color": "#aa4016",
+        "font_family": "mono",
+        "visual_styles": {
+          "border_radius": "4px",
+          "button_variant": "outline"
+        }
       },
-      "homepage_content": { "hero_title": "Fresh Morning Brew" }
+      "homepage_content": {
+        "banner": {
+          "image_url": "https://assets.com/coffee-hero.jpg",
+          "overlay": 0.4,
+          "height": "60vh",
+          "text_color": "#ffffff"
+        },
+        "headings": {
+          "hero_title": "Fresh Morning Brew",
+          "hero_subtitle": "Sourced from the heart of Ethiopia",
+          "alignment": "center",
+          "transform": "uppercase"
+        },
+        "features_section": {
+          "enabled": true,
+          "title": "Our Signature Blends",
+          "items_per_row": 3
+        }
+      }
     },
-    "tech": {
-      "business_name": "NextGen Tech",
-      "theme_id": "theme-02",
+    "vibestore": {
+      "business_name": "NextGen AI",
+      "theme_id": "theme-vibe-store",
       "theme_config": {
         "primary_color": "#0ea5e9",
-        "secondary_color": "#b58463",
-        "font_family": "sans-serif"
+        "secondary_color": "#6366f1",
+        "background_type": "gradient",
+        "background_gradient": "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
+        "font_family": "Inter, system-ui, sans-serif",
+        "visual_styles": {
+          "border_radius": "12px",
+          "card_shadow": "0 4px 20px rgba(0, 0, 0, 0.3)",
+          "glassmorphism": true
+        }
       },
-      "homepage_content": { "hero_title": "Building the Future" }
+      "homepage_content": {
+        "banner": {
+          "type": "video_background",
+          "video_url": "https://cdn.nextgen.io/hero-nodes.mp4",
+          "overlay_opacity": 0.6,
+          "height": "80vh",
+          "cta_label": "Get Started",
+          "cta_variant": "glow"
+        },
+        "headings": {
+          "hero_title": "Intelligence at Scale",
+          "hero_subtitle": "Deploy neural networks in seconds, not months.",
+          "alignment": "left",
+          "letter_spacing": "-0.02em",
+          "font_weight": "800"
+        }
+      }
+    },
+    "nexatech": {
+      "business_name": "NexaTech",
+      "theme_id": "nexatech",
+      "theme_config": {
+        "primary_color": "#3b82f6",
+        "secondary_color": "#8b5cf6",
+        "background_main": "#020617",
+        "card_bg": "rgba(15, 23, 42, 0.5)",
+        "border_color": "rgba(51, 65, 85, 0.5)",
+        "text_main": "#ffffff",
+        "text_muted": "#94a3b8",
+        "visual_styles": {
+          "border_radius": "16px",
+          "glassmorphism": true,
+          "glow_opacity": 0.15
+        }
+      },
+      "navigation": ["Services", "Portfolio", "About", "Process", "Contact"],
+      "hero": {
+        "badge": "Trusted by 500+ companies worldwide",
+        "title_white": "IT Solutions",
+        "title_gradient": "That Power Success",
+        "description": "From infrastructure to cloud services, we deliver reliable technology solutions that transform businesses and drive innovation.",
+        "cta_primary": "Start Your Project",
+        "cta_secondary": "View Our Work"
+      },
+      "stats": [
+        { "value": "150+", "label": "Projects Delivered" },
+        { "value": "98%", "label": "Client Satisfaction" },
+        { "value": "12+", "label": "Years Experience" }
+      ],
+      "services": {
+        "title": "Everything You Need to Succeed",
+        "subtitle": "SERVICES",
+        "items": [
+          {
+            "title": "Web Development",
+            "desc": "Custom web applications built with modern frameworks and best practices for performance and scalability.",
+            "icon": "code"
+          },
+          {
+            "title": "Mobile Apps",
+            "desc": "Native and cross-platform mobile applications that deliver seamless experiences across all devices.",
+            "icon": "smartphone"
+          },
+          {
+            "title": "Cloud Solutions",
+            "desc": "Scalable cloud infrastructure and DevOps services to power your applications with reliability.",
+            "icon": "cloud"
+          },
+          {
+            "title": "UI/UX Design",
+            "desc": "Beautiful, intuitive interfaces designed with user experience at the core of every decision.",
+            "icon": "palette"
+          },
+          {
+            "title": "Security & Compliance",
+            "desc": "Enterprise-grade security solutions and compliance implementations to protect your business.",
+            "icon": "shield"
+          },
+          {
+            "title": "Performance Optimization",
+            "desc": "Speed up your applications with expert optimization techniques and monitoring solutions.",
+            "icon": "zap"
+          }
+        ]
+      },
+      "portfolio": {
+        "title": "Featured Projects",
+        "filters": ["All", "Web App", "Mobile", "E-Commerce", "SaaS"],
+        "projects": [
+          {
+            "name": "FinTrack Dashboard",
+            "category": "SaaS",
+            "desc": "Real-time financial analytics platform with AI-powered insights.",
+            "tags": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+            "image": "/images/fintrack.png"
+          },
+          {
+            "name": "ShopFlow",
+            "category": "E-Commerce",
+            "desc": "Modern e-commerce platform with seamless checkout system.",
+            "tags": ["Next.js", "Stripe", "Prisma", "Tailwind"],
+            "image": "/images/shopflow.png"
+          },
+          {
+            "name": "HealthPulse",
+            "category": "Mobile",
+            "desc": "Cross-platform health tracking app with wearable integration.",
+            "tags": ["React Native", "Firebase", "TensorFlow", "Swift"],
+            "image": "/images/healthpulse.png"
+          }
+        ]
+      },
+      "about": {
+        "title": "We're IT Experts Who Deliver Results",
+        "desc": "NexaTech is a team of experienced IT professionals dedicated to providing comprehensive technology solutions...",
+        "features": [
+          "24/7 IT support & monitoring",
+          "Rapid incident response",
+          "Scalable cloud solutions",
+          "Proactive maintenance",
+          "Secure infrastructure",
+          "Enterprise-grade reliability"
+        ],
+        "philosophy_code": {
+          "quality": "excellence",
+          "focus": "user-first",
+          "delivery": "on-time",
+          "partnership": true
+        }
+      },
+      "process": {
+        "steps": [
+          {
+            "id": "01",
+            "title": "Discovery",
+            "desc": "We dive deep into your business goals and technical requirements."
+          },
+          {
+            "id": "02",
+            "title": "Design",
+            "desc": "Our designers craft intuitive interfaces that align with your brand."
+          },
+          {
+            "id": "03",
+            "title": "Development",
+            "desc": "Our engineers build your solution using modern technologies."
+          },
+          {
+            "id": "04",
+            "title": "Deploy & Support",
+            "desc": "We launch your product and provide ongoing support."
+          }
+        ]
+      },
+      "footer": {
+        "cta_title": "Ready to Build Something Amazing?",
+        "cta_subtitle": "Let's discuss your project and explore how we can help you achieve your goals.",
+        "copyright": "© 2026 NexaTech. All rights reserved."
+      }
+    },
+    "daraz-mart": {
+      "business_name": "DarazMart",
+      "theme_id": "daraz-mart",
+      "theme_config": {
+        "primary_color": "#f57224",
+        "secondary_color": "#212121",
+        "background_main": "#f4f4f4",
+        "card_bg": "#ffffff",
+        "accent_orange": "#ff6801",
+        "text_main": "#212121",
+        "text_light": "#757575",
+        "visual_styles": {
+          "border_radius": "2px",
+          "card_shadow": "0 2px 4px 0 rgba(0,0,0,.08)",
+          "container_width": "1200px"
+        }
+      },
+      "top_bar": {
+        "location": "Deliver to: Karachi",
+        "links": ["Sell on DarazMart", "Help & Support"]
+      },
+      "categories": [
+        { "label": "Electronics", "icon": "Smartphone" },
+        { "label": "Fashion", "icon": "Shirt" },
+        { "label": "Home & Living", "icon": "Home" },
+        { "label": "Beauty", "icon": "Sparkles" },
+        { "label": "Sports", "icon": "Bike" },
+        { "label": "Groceries", "icon": "ShoppingBag" },
+        { "label": "Gaming", "icon": "Gamepad" },
+        { "label": "Automotive", "icon": "Car" }
+      ],
+      "flash_sale": {
+        "title": "Flash Sale",
+        "discount": "Up to 70% OFF",
+        "timer": { "h": "05", "m": "18", "s": "41" }
+      },
+      "flash_deals": {
+        "products": [
+          {
+            "name": "Smartphone Pro Max 256GB - Graphite",
+            "price": 89999,
+            "oldPrice": 129999,
+            "image": "https://images.unsplash.com/photo-1632661674596-df8be070a5c5?q=80&w=500&auto=format&fit=crop",
+            "discount_label": "31",
+            "soldPercent": 78,
+            "rating": 4.5,
+            "reviews_count": 1234
+          },
+          {
+            "name": "Wireless Bluetooth Noise Cancelling Headphones",
+            "price": 4599,
+            "oldPrice": 8999,
+            "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=500&auto=format&fit=crop",
+            "discount_label": "49",
+            "soldPercent": 65,
+            "rating": 4.3,
+            "reviews_count": 856
+          },
+          {
+            "name": "Smart Watch Fitness Tracker with Heart Rate",
+            "price": 3499,
+            "oldPrice": 6999,
+            "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=500&auto=format&fit=crop",
+            "discount_label": "50",
+            "soldPercent": 82,
+            "rating": 4.2,
+            "reviews_count": 423
+          },
+          {
+            "name": "Laptop 15.6\" Core i7 16GB RAM 512GB SSD",
+            "price": 134999,
+            "oldPrice": 179999,
+            "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=500&auto=format&fit=crop",
+            "discount_label": "25",
+            "soldPercent": 45,
+            "rating": 4.7,
+            "reviews_count": 567
+          },
+          {
+            "name": "Wireless Earbuds Pro with Magsafe Case",
+            "price": 2999,
+            "oldPrice": 5999,
+            "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=500&auto=format&fit=crop",
+            "discount_label": "50",
+            "soldPercent": 91,
+            "rating": 4.4,
+            "reviews_count": 1890
+          }
+        ]
+      },
+      "just_for_you": {
+        "products": [
+          {
+            "name": "Women's Casual Cotton T-Shirt - Pink",
+            "price": 799,
+            "oldPrice": 1499,
+            "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=500&auto=format&fit=crop",
+            "discount_label": "47",
+            "rating": 4.1,
+            "reviews_count": 234
+          },
+          {
+            "name": "Men's Running Sports Sneakers - White",
+            "price": 3299,
+            "oldPrice": 5999,
+            "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=500&auto=format&fit=crop",
+            "discount_label": "45",
+            "rating": 4.3,
+            "reviews_count": 567
+          },
+          {
+            "name": "Travel Laptop Backpack with USB Port",
+            "price": 1899,
+            "oldPrice": 3499,
+            "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=500&auto=format&fit=crop",
+            "discount_label": "46",
+            "rating": 4.5,
+            "reviews_count": 890
+          },
+          {
+            "name": "Kitchen Blender Multi-Function 1.5L",
+            "price": 4999,
+            "oldPrice": 7999,
+            "image": "https://images.unsplash.com/photo-1585238341267-1cfec2046a55?q=80&w=500&auto=format&fit=crop",
+            "discount_label": "38",
+            "rating": 4.2,
+            "reviews_count": 345
+          },
+          {
+            "name": "RGB Gaming Mouse 7200 DPI",
+            "price": 1299,
+            "oldPrice": 2499,
+            "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=500&auto=format&fit=crop",
+            "discount_label": "48",
+            "rating": 4.6,
+            "reviews_count": 1234
+          }
+        ]
+      },
+      "footer_sections": [
+        {
+          "title": "Customer Care",
+          "links": [
+            "Help Center",
+            "How to Buy",
+            "Returns & Refunds",
+            "Contact Us",
+            "Shipping Info"
+          ]
+        },
+        {
+          "title": "About Us",
+          "links": [
+            "About DarazMart",
+            "Careers",
+            "Terms & Conditions",
+            "Privacy Policy",
+            "Press"
+          ]
+        },
+        {
+          "title": "Earn With Us",
+          "links": [
+            "Sell on DarazMart",
+            "Affiliate Program",
+            "Become a Partner",
+            "Advertise"
+          ]
+        }
+      ]
     }
   }
 }

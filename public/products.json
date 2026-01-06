@@ -1,0 +1,645 @@
+[
+  {
+    "id": "prod_001",
+    "name": "SonicWave Noise-Canceling Headphones",
+    "slug": "sonicwave-nc-headphones",
+    "category": "Electronics",
+    "brand": "AudioTech",
+    "price": {
+      "current": 299.99,
+      "original": 349.99,
+      "currency": "USD",
+      "discountPercentage": 14,
+      "taxable": true
+    },
+    "inventory": {
+      "sku": "AT-SW-2026-BLK",
+      "quantity": 45,
+      "status": "in_stock"
+    },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/hp1/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/hp-angle1/800/800",
+        "https://picsum.photos/seed/hp-angle2/800/800",
+        "https://picsum.photos/seed/hp-angle3/800/800",
+        "https://picsum.photos/seed/hp-lifestyle/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Experience unparalleled sound quality with the <strong>SonicWave Noise-Canceling Headphones</strong>. Engineered for audiophiles, these headphones feature proprietary 40mm drivers that deliver deep bass and crisp highs. The <em>Advanced Active Noise Cancellation (ANC)</em> technology filters out up to 95% of ambient noise, making them perfect for travel or focused work.</p><ul><li>40-hour battery life</li><li>Bluetooth 5.2 connectivity</li><li>Memory foam ear cushions</li></ul><p>The ergonomic design ensures long-term comfort, while the integrated beam-forming microphones provide crystal-clear calls even in windy environments. Elevate your listening experience with the perfect blend of style and performance.</p>",
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 1250,
+      "tags": ["wireless", "audio"]
+    },
+    "metadata": { "createdAt": "2026-01-01T10:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_002",
+    "name": "Essential Organic Cotton Tee",
+    "slug": "essential-organic-cotton-tee",
+    "category": "Apparel",
+    "brand": "EcoWear",
+    "price": {
+      "current": 35.0,
+      "original": 35.0,
+      "currency": "USD",
+      "discountPercentage": 0,
+      "taxable": true
+    },
+    "inventory": { "sku": "EW-TEE-WHT", "quantity": 500, "status": "in_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/tee-front/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/tee-back/800/800",
+        "https://picsum.photos/seed/tee-detail/800/800",
+        "https://picsum.photos/seed/tee-label/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Our <strong>Essential Organic Cotton Tee</strong> is the foundation of a sustainable wardrobe. Crafted from 100% GOTS-certified organic cotton, this shirt offers superior breathability and a soft-to-touch feel that improves with every wash. We prioritize ethical manufacturing, ensuring fair wages and reduced water consumption during production.</p><ul><li>Pre-shrunk fabric</li><li>Reinforced shoulder seams</li><li>Eco-friendly non-toxic dyes</li></ul><p>Featuring a modern tailored fit, it transitions effortlessly from a casual day look to a layered evening ensemble. Choose a product that feels as good on your skin as it does for the planet.</p>",
+    "metrics": {
+      "rating": 4.5,
+      "reviewCount": 85,
+      "tags": ["sustainable", "basics"]
+    },
+    "metadata": { "createdAt": "2025-12-15T14:20:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_003",
+    "name": "BrewMaster Pro Smart Coffee Maker",
+    "slug": "brewmaster-pro-smart-coffee",
+    "category": "Home & Kitchen",
+    "brand": "BrewMaster",
+    "price": {
+      "current": 189.5,
+      "original": 199.99,
+      "currency": "USD",
+      "discountPercentage": 5,
+      "taxable": true
+    },
+    "inventory": {
+      "sku": "BM-PRO-IOT-01",
+      "quantity": 8,
+      "status": "low_stock"
+    },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/coffee-main/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/coffee-pour/800/800",
+        "https://picsum.photos/seed/coffee-beans/800/800",
+        "https://picsum.photos/seed/coffee-display/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Wake up to the perfect cup with the <strong>BrewMaster Pro Smart Coffee Maker</strong>. This IoT-enabled appliance allows you to schedule your brew, adjust strength, and monitor water levels directly from your smartphone. Its precision heating system maintains the optimal temperature for flavor extraction, consistently delivering barista-quality results at home.</p><ul><li>WiFi & Bluetooth integration</li><li>Programmable 24-hour timer</li><li>Customizable brew strength</li></ul><p>The sleek stainless-steel finish complements any kitchen aesthetic, while the reusable gold-tone filter ensures a cleaner taste and less waste. Experience the future of morning rituals with unparalleled convenience and taste.</p>",
+    "metrics": {
+      "rating": 4.2,
+      "reviewCount": 310,
+      "tags": ["smart-home", "kitchen"]
+    },
+    "metadata": { "createdAt": "2025-12-20T11:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_004",
+    "name": "UltraView 27-inch 4K Monitor",
+    "slug": "ultraview-4k-monitor",
+    "category": "Electronics",
+    "brand": "ViewSonic",
+    "price": {
+      "current": 449.99,
+      "original": 499.99,
+      "currency": "USD",
+      "discountPercentage": 10,
+      "taxable": true
+    },
+    "inventory": { "sku": "VS-4K-27", "quantity": 15, "status": "in_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/mon-front/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/mon-side/800/800",
+        "https://picsum.photos/seed/mon-back/800/800",
+        "https://picsum.photos/seed/mon-setup/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Transform your workspace with the <strong>UltraView 27-inch 4K Monitor</strong>. Featuring an IPS panel with 99% sRGB color accuracy, it is the ideal choice for creative professionals and gamers alike. The Ultra HD resolution provides four times the detail of standard 1080p, offering stunning clarity for photo editing and immersive entertainment.</p><ul><li>HDR10 Support</li><li>USB-C Power Delivery (65W)</li><li>Ultra-thin bezel design</li></ul><p>The adjustable stand allows for tilt, swivel, and height modifications, ensuring ergonomic comfort during long sessions. With multiple input ports, connecting your laptop, console, or desktop has never been easier or more visually rewarding.</p>",
+    "metrics": {
+      "rating": 4.7,
+      "reviewCount": 210,
+      "tags": ["office", "gaming"]
+    },
+    "metadata": { "createdAt": "2026-01-02T09:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_005",
+    "name": "ErgoSoft Office Chair",
+    "slug": "ergosoft-office-chair",
+    "category": "Furniture",
+    "brand": "ComfortCo",
+    "price": {
+      "current": 259.0,
+      "original": 299.0,
+      "currency": "USD",
+      "discountPercentage": 13,
+      "taxable": true
+    },
+    "inventory": { "sku": "CC-ERGO-09", "quantity": 12, "status": "low_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/chair-main/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/chair-adjust/800/800",
+        "https://picsum.photos/seed/chair-back/800/800",
+        "https://picsum.photos/seed/chair-fabric/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Redefine your seating experience with the <strong>ErgoSoft Office Chair</strong>. Designed with spinal health in mind, it features a dynamic lumbar support system that adjusts to your movements throughout the day. The breathable mesh back ensures optimal airflow, keeping you cool during intense work hours or gaming marathons.</p><ul><li>3D Adjustable armrests</li><li>Synchro-tilt mechanism</li><li>Heavy-duty nylon base</li></ul><p>The high-density foam seat cushion provides plush comfort without losing its shape over time. Built to last with premium materials, this chair combines executive aesthetics with the functional support your body deserves. Invest in your health and productivity today.</p>",
+    "metrics": {
+      "rating": 4.6,
+      "reviewCount": 450,
+      "tags": ["ergonomic", "home-office"]
+    },
+    "metadata": { "createdAt": "2025-11-20T16:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_006",
+    "name": "Pro-Grip Mechanical Keyboard",
+    "slug": "progrip-mechanical-keyboard",
+    "category": "Electronics",
+    "brand": "KeyMaster",
+    "price": {
+      "current": 129.99,
+      "original": 129.99,
+      "currency": "USD",
+      "discountPercentage": 0,
+      "taxable": true
+    },
+    "inventory": { "sku": "KM-RGB-PRO", "quantity": 60, "status": "in_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/kb-main/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/kb-rgb/800/800",
+        "https://picsum.photos/seed/kb-switches/800/800",
+        "https://picsum.photos/seed/kb-cable/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Dominate the competition with the <strong>Pro-Grip Mechanical Keyboard</strong>. Featuring hot-swappable linear switches, this keyboard offers a satisfyingly smooth keystroke with lightning-fast actuation. The full RGB backlighting is completely customizable via software, allowing you to synchronize your peripheral lighting with your favorite games.</p><ul><li>N-Key Rollover & Anti-ghosting</li><li>PBT double-shot keycaps</li><li>Detachable USB-C braided cable</li></ul><p>Constructed with an aircraft-grade aluminum frame, it provides a stable and durable platform for heavy-duty use. Whether you are typing a novel or climbing the ranks in an e-sports title, the Pro-Grip delivers precision and style in every tap.</p>",
+    "metrics": { "rating": 4.9, "reviewCount": 890, "tags": ["gaming", "rgb"] },
+    "metadata": { "createdAt": "2026-01-03T12:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_007",
+    "name": "Leather Minimalist Wallet",
+    "slug": "leather-minimalist-wallet",
+    "category": "Accessories",
+    "brand": "Hide & Seek",
+    "price": {
+      "current": 45.0,
+      "original": 60.0,
+      "currency": "USD",
+      "discountPercentage": 25,
+      "taxable": true
+    },
+    "inventory": { "sku": "HS-WAL-BRN", "quantity": 100, "status": "in_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/wal-folded/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/wal-open/800/800",
+        "https://picsum.photos/seed/wal-cards/800/800",
+        "https://picsum.photos/seed/wal-box/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Elevate your everyday carry with the <strong>Leather Minimalist Wallet</strong>. Crafted from premium full-grain vegetable-tanned leather, this wallet is designed to age beautifully, developing a unique patina over time. Its ultra-slim profile fits comfortably in your front pocket, eliminating the bulk of traditional bi-folds while maintaining functionality.</p><ul><li>RFID blocking technology</li><li>Holds up to 8 cards and cash</li><li>Quick-access thumb slot</li></ul><p>Hand-stitched for maximum durability, this accessory combines timeless craftsmanship with modern security features. It is the perfect blend of elegance and utility for the discerning modern professional who values both style and substance.</p>",
+    "metrics": {
+      "rating": 4.4,
+      "reviewCount": 120,
+      "tags": ["leather", "gift"]
+    },
+    "metadata": { "createdAt": "2025-10-05T08:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_008",
+    "name": "Smart Fitness Tracker v4",
+    "slug": "smart-fitness-tracker-v4",
+    "category": "Fitness",
+    "brand": "ActiveLife",
+    "price": {
+      "current": 79.99,
+      "original": 99.99,
+      "currency": "USD",
+      "discountPercentage": 20,
+      "taxable": true
+    },
+    "inventory": { "sku": "AL-FIT-04", "quantity": 250, "status": "in_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/fit-watch/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/fit-app/800/800",
+        "https://picsum.photos/seed/fit-wrist/800/800",
+        "https://picsum.photos/seed/fit-charger/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Achieve your health goals with the <strong>Smart Fitness Tracker v4</strong>. This powerful wearable monitors your heart rate, sleep patterns, and daily activity with medical-grade precision. The vibrant AMOLED display is easy to read even in direct sunlight, providing real-time stats on your steps, calories burned, and oxygen levels.</p><ul><li>Waterproof up to 50 meters</li><li>Built-in GPS tracking</li><li>14-day battery life</li></ul><p>Sync it with the ActiveLife app to receive personalized health insights and set fitness challenges with friends. With its lightweight design and skin-friendly silicone band, it is comfortable enough to wear all day and night.</p>",
+    "metrics": {
+      "rating": 4.3,
+      "reviewCount": 1500,
+      "tags": ["fitness", "wearable"]
+    },
+    "metadata": { "createdAt": "2025-12-01T10:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_009",
+    "name": "Stainless Steel Water Bottle",
+    "slug": "stainless-steel-water-bottle",
+    "category": "Lifestyle",
+    "brand": "HydroFlow",
+    "price": {
+      "current": 25.0,
+      "original": 25.0,
+      "currency": "USD",
+      "discountPercentage": 0,
+      "taxable": true
+    },
+    "inventory": { "sku": "HF-BOT-32", "quantity": 1000, "status": "in_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/bot-blue/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/bot-cap/800/800",
+        "https://picsum.photos/seed/bot-ice/800/800",
+        "https://picsum.photos/seed/bot-gym/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Stay hydrated on the go with the <strong>HydroFlow Stainless Steel Water Bottle</strong>. Utilizing double-wall vacuum insulation, this bottle keeps your beverages ice-cold for 24 hours or piping hot for 12. The leak-proof lid and sweat-free exterior make it the perfect companion for the gym, office, or outdoor adventures.</p><ul><li>BPA-free and toxin-free materials</li><li>Wide mouth for ice cubes</li><li>Powder-coated durable finish</li></ul><p>By choosing HydroFlow, you are reducing single-use plastic waste while enjoying a premium drinking experience. The 32oz capacity ensures you have enough water to last through your most demanding activities without constant refills.</p>",
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 3200,
+      "tags": ["eco", "hydration"]
+    },
+    "metadata": { "createdAt": "2025-09-12T11:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_010",
+    "name": "Duo-Lens Dash Cam",
+    "slug": "duo-lens-dash-cam",
+    "category": "Automotive",
+    "brand": "SafeDrive",
+    "price": {
+      "current": 149.0,
+      "original": 179.0,
+      "currency": "USD",
+      "discountPercentage": 16,
+      "taxable": true
+    },
+    "inventory": { "sku": "SD-DASH-4K", "quantity": 30, "status": "in_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/dash-cam/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/dash-night/800/800",
+        "https://picsum.photos/seed/dash-mount/800/800",
+        "https://picsum.photos/seed/dash-rear/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Protect yourself on the road with the <strong>Duo-Lens Dash Cam</strong> from SafeDrive. This high-definition system features both front and rear-facing cameras, providing a 170-degree wide-angle view of your surroundings. With 4K resolution and enhanced Sony Starvis night vision, every license plate and detail is captured with clarity, day or night.</p><ul><li>G-Sensor for automatic incident detection</li><li>Loop recording technology</li><li>Parking monitor mode</li></ul><p>The intuitive touch-screen interface allows for easy playback and setting adjustments. Whether for insurance security or capturing scenic road trips, the Duo-Lens Dash Cam is your ultimate eyewitness on every journey.</p>",
+    "metrics": {
+      "rating": 4.5,
+      "reviewCount": 640,
+      "tags": ["safety", "car-tech"]
+    },
+    "metadata": { "createdAt": "2026-01-04T15:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_011",
+    "name": "Velvet Throw Pillow Case",
+    "slug": "velvet-throw-pillow",
+    "category": "Home Decor",
+    "brand": "LuxeHome",
+    "price": {
+      "current": 12.99,
+      "original": 19.99,
+      "currency": "USD",
+      "discountPercentage": 35,
+      "taxable": true
+    },
+    "inventory": { "sku": "LH-PIL-VEL", "quantity": 400, "status": "in_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/pillow-green/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/pillow-texture/800/800",
+        "https://picsum.photos/seed/pillow-couch/800/800",
+        "https://picsum.photos/seed/pillow-colors/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Add a touch of sophistication to your living space with the <strong>Velvet Throw Pillow Case</strong>. Made from premium, heavy-duty velvet fabric, these cases offer a luxurious sheen and an incredibly soft texture. The hidden zipper design provides a seamless look and makes it easy to insert or remove pillow forms for cleaning.</p><ul><li>Fade-resistant vibrant colors</li><li>Machine washable (delicate cycle)</li><li>Reinforced stitching for durability</li></ul><p>Available in a variety of jewel tones, these cases are the perfect way to refresh your sofa, bed, or armchair. Elevate your interior design with an accessory that balances comfort with high-end style.</p>",
+    "metrics": {
+      "rating": 4.1,
+      "reviewCount": 200,
+      "tags": ["home", "velvet"]
+    },
+    "metadata": { "createdAt": "2025-11-30T09:30:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_012",
+    "name": "Portable Power Bank 20000mAh",
+    "slug": "portable-power-bank-20k",
+    "category": "Electronics",
+    "brand": "VoltCharge",
+    "price": {
+      "current": 49.99,
+      "original": 59.99,
+      "currency": "USD",
+      "discountPercentage": 16,
+      "taxable": true
+    },
+    "inventory": { "sku": "VC-PB-20", "quantity": 150, "status": "in_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/pb-top/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/pb-ports/800/800",
+        "https://picsum.photos/seed/pb-hand/800/800",
+        "https://picsum.photos/seed/pb-charging/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Never run out of juice again with the <strong>VoltCharge 20000mAh Power Bank</strong>. This high-capacity external battery can charge a standard smartphone up to 5 times on a single fill. Equipped with Power Delivery (PD) 3.0 and Quick Charge technology, it delivers ultra-fast charging to both your phone and tablet simultaneously.</p><ul><li>Dual USB-A and USB-C output</li><li>LED battery level indicator</li><li>Compact, travel-friendly design</li></ul><p>The smart chipset prevents overcharging, overheating, and short circuits, ensuring your devices stay safe while they power up. Ideal for travelers, hikers, and busy professionals who need reliable power throughout the day.</p>",
+    "metrics": {
+      "rating": 4.7,
+      "reviewCount": 1100,
+      "tags": ["travel", "battery"]
+    },
+    "metadata": { "createdAt": "2025-12-28T14:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_013",
+    "name": "Cast Iron Skillet (12 inch)",
+    "slug": "cast-iron-skillet-12",
+    "category": "Home & Kitchen",
+    "brand": "IronChef",
+    "price": {
+      "current": 39.99,
+      "original": 39.99,
+      "currency": "USD",
+      "discountPercentage": 0,
+      "taxable": true
+    },
+    "inventory": { "sku": "IC-SKIL-12", "quantity": 75, "status": "in_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/skillet-top/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/skillet-cooking/800/800",
+        "https://picsum.photos/seed/skillet-handle/800/800",
+        "https://picsum.photos/seed/skillet-clean/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>The <strong>IronChef 12-inch Cast Iron Skillet</strong> is a kitchen workhorse that lasts a lifetime. Pre-seasoned with 100% natural vegetable oil, it offers a superior non-stick surface that only improves with use. Its unparalleled heat retention and even distribution make it perfect for searing steaks, baking cornbread, or sautéing vegetables.</p><ul><li>Oven-safe up to 500°F</li><li>Compatible with all stovetops</li><li>Integrated pour spouts</li></ul><p>Built for durability, this skillet can be used on the grill or over a campfire. With proper care, it becomes a cherished family heirloom that delivers exceptional flavor and performance for generations to come.</p>",
+    "metrics": {
+      "rating": 4.9,
+      "reviewCount": 4200,
+      "tags": ["cooking", "durable"]
+    },
+    "metadata": { "createdAt": "2025-08-20T10:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_014",
+    "name": "Wireless Charging Pad",
+    "slug": "wireless-charging-pad",
+    "category": "Electronics",
+    "brand": "FastCharge",
+    "price": {
+      "current": 19.99,
+      "original": 29.99,
+      "currency": "USD",
+      "discountPercentage": 33,
+      "taxable": true
+    },
+    "inventory": { "sku": "FC-WIRE-01", "quantity": 300, "status": "in_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/wire-pad/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/wire-phone/800/800",
+        "https://picsum.photos/seed/wire-desk/800/800",
+        "https://picsum.photos/seed/wire-led/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Eliminate cable clutter with the <strong>FastCharge Wireless Charging Pad</strong>. This sleek, ultra-slim Qi-certified charger provides up to 15W of power for compatible iPhones, Android devices, and wireless earbuds. The non-slip silicone surface ensures your device stays securely in place while charging, even without a case.</p><ul><li>Case-friendly (up to 5mm thick)</li><li>Intelligent LED indicator</li><li>Foreign object detection safety</li></ul><p>The minimalist design looks great on any nightstand or desk, while the built-in temperature control system prevents your phone from overheating. Experience the ultimate convenience of simply dropping your device to start the power flow.</p>",
+    "metrics": {
+      "rating": 4.2,
+      "reviewCount": 950,
+      "tags": ["accessories", "tech"]
+    },
+    "metadata": { "createdAt": "2026-01-01T08:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_015",
+    "name": "Running Performance Shoes",
+    "slug": "running-performance-shoes",
+    "category": "Apparel",
+    "brand": "SwiftRun",
+    "price": {
+      "current": 110.0,
+      "original": 140.0,
+      "currency": "USD",
+      "discountPercentage": 21,
+      "taxable": true
+    },
+    "inventory": { "sku": "SR-SH-05", "quantity": 0, "status": "out_of_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/shoe-side/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/shoe-sole/800/800",
+        "https://picsum.photos/seed/shoe-pair/800/800",
+        "https://picsum.photos/seed/shoe-running/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Push your limits with the <strong>SwiftRun Performance Shoes</strong>. Engineered for speed and comfort, these runners feature a responsive foam midsole that provides explosive energy return with every stride. The lightweight, breathable engineered mesh upper keeps your feet cool and dry, reducing friction and the risk of blisters.</p><ul><li>Carbon-fiber plate for stability</li><li>Padded heel collar</li><li>High-traction rubber outsole</li></ul><p>Whether you are training for a 5K or a full marathon, these shoes offer the perfect balance of cushioning and support. The reflective elements increase visibility during early morning or late evening runs, ensuring you stay safe while you chase your personal best.</p>",
+    "metrics": {
+      "rating": 4.6,
+      "reviewCount": 580,
+      "tags": ["fitness", "shoes"]
+    },
+    "metadata": { "createdAt": "2025-12-10T11:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_016",
+    "name": "Electric Standing Desk",
+    "slug": "electric-standing-desk",
+    "category": "Furniture",
+    "brand": "WorkFlow",
+    "price": {
+      "current": 399.0,
+      "original": 499.0,
+      "currency": "USD",
+      "discountPercentage": 20,
+      "taxable": true
+    },
+    "inventory": { "sku": "WF-STND-DK", "quantity": 5, "status": "low_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/desk-high/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/desk-low/800/800",
+        "https://picsum.photos/seed/desk-motor/800/800",
+        "https://picsum.photos/seed/desk-wood/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Improve your health and focus with the <strong>WorkFlow Electric Standing Desk</strong>. Transition from sitting to standing in seconds with the smooth, quiet dual-motor lift system. The programmable digital controller features 4 memory presets, allowing you to save your ideal heights for quick adjustments throughout the day.</p><ul><li>Supports up to 220 lbs</li><li>Solid walnut wood tabletop</li><li>Integrated cable management</li></ul><p>The sturdy steel frame provides maximum stability even at its highest setting. Say goodbye to sedentary work habits and hello to a more active, productive lifestyle with a desk that moves with you.</p>",
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 150,
+      "tags": ["office", "health"]
+    },
+    "metadata": { "createdAt": "2025-11-05T13:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_017",
+    "name": "Organic Green Tea (50 bags)",
+    "slug": "organic-green-tea-50",
+    "category": "Grocery",
+    "brand": "PureLeaf",
+    "price": {
+      "current": 9.99,
+      "original": 9.99,
+      "currency": "USD",
+      "discountPercentage": 0,
+      "taxable": false
+    },
+    "inventory": { "sku": "PL-TEA-GRN", "quantity": 600, "status": "in_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/tea-box/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/tea-bag/800/800",
+        "https://picsum.photos/seed/tea-cup/800/800",
+        "https://picsum.photos/seed/tea-leaf/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Indulge in the pure, refreshing taste of <strong>PureLeaf Organic Green Tea</strong>. Sourced from sustainable high-altitude gardens, our tea leaves are steamed and pan-fired to preserve their natural antioxidants and delicate grassy notes. Each box contains 50 individually wrapped pyramid tea bags designed for maximum infusion.</p><ul><li>Non-GMO and Gluten-free</li><li>Zero calories per serving</li><li>Rich in polyphenols</li></ul><p>Perfect for a morning pick-me-up or a relaxing afternoon break, this tea offers a smooth finish without the bitterness. Enjoy it hot or iced for a healthy, revitalizing beverage that supports your overall wellness.</p>",
+    "metrics": {
+      "rating": 4.7,
+      "reviewCount": 890,
+      "tags": ["organic", "beverage"]
+    },
+    "metadata": { "createdAt": "2025-07-15T10:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_018",
+    "name": "Canvas Backpack 20L",
+    "slug": "canvas-backpack-20l",
+    "category": "Accessories",
+    "brand": "NomadGear",
+    "price": {
+      "current": 55.0,
+      "original": 75.0,
+      "currency": "USD",
+      "discountPercentage": 26,
+      "taxable": true
+    },
+    "inventory": { "sku": "NG-BP-CANV", "quantity": 85, "status": "in_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/bag-front/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/bag-inside/800/800",
+        "https://picsum.photos/seed/bag-wearing/800/800",
+        "https://picsum.photos/seed/bag-straps/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>The <strong>NomadGear Canvas Backpack</strong> is built for the modern explorer. Crafted from heavy-duty 16oz waxed canvas and genuine leather accents, this 20L pack is both water-resistant and incredibly durable. The spacious main compartment features a padded sleeve that fits laptops up to 15.6 inches safely.</p><ul><li>Hidden anti-theft back pocket</li><li>Adjustable padded shoulder straps</li><li>Brass hardware detailing</li></ul><p>Whether you are commuting to the city or hiking through the woods, this backpack offers a vintage aesthetic combined with modern organization. Its rugged construction ensures it will accompany you on countless adventures while developing a unique character over the years.</p>",
+    "metrics": {
+      "rating": 4.4,
+      "reviewCount": 230,
+      "tags": ["travel", "outdoor"]
+    },
+    "metadata": { "createdAt": "2025-12-18T09:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_019",
+    "name": "Yoga Mat Non-Slip",
+    "slug": "yoga-mat-non-slip",
+    "category": "Fitness",
+    "brand": "ZenState",
+    "price": {
+      "current": 32.5,
+      "original": 32.5,
+      "currency": "USD",
+      "discountPercentage": 0,
+      "taxable": true
+    },
+    "inventory": {
+      "sku": "ZS-YOGA-BLU",
+      "quantity": 120,
+      "status": "in_stock"
+    },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/yoga-roll/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/yoga-grip/800/800",
+        "https://picsum.photos/seed/yoga-pose/800/800",
+        "https://picsum.photos/seed/yoga-carry/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Find your balance with the <strong>ZenState Non-Slip Yoga Mat</strong>. This 6mm thick mat provides the perfect amount of cushioning for your joints while maintaining excellent floor stability. The dual-sided textured surface ensures a superior grip, even during the most sweat-inducing hot yoga sessions.</p><ul><li>Eco-friendly TPE material</li><li>Lightweight and easy to carry</li><li>Hypoallergenic and PVC-free</li></ul><p>The moisture-resistant technology prevents odors and makes cleaning as simple as a quick wipe-down. Free from harmful chemicals, this mat is as kind to the environment as it is to your body, helping you focus entirely on your practice and breath.</p>",
+    "metrics": {
+      "rating": 4.5,
+      "reviewCount": 670,
+      "tags": ["fitness", "yoga"]
+    },
+    "metadata": { "createdAt": "2025-10-20T14:30:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_020",
+    "name": "Handheld Milk Frother",
+    "slug": "handheld-milk-frother",
+    "category": "Home & Kitchen",
+    "brand": "CafeTool",
+    "price": {
+      "current": 14.99,
+      "original": 14.99,
+      "currency": "USD",
+      "discountPercentage": 0,
+      "taxable": true
+    },
+    "inventory": {
+      "sku": "CT-FROTH-01",
+      "quantity": 250,
+      "status": "in_stock"
+    },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/froth-stand/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/froth-action/800/800",
+        "https://picsum.photos/seed/froth-latte/800/800",
+        "https://picsum.photos/seed/froth-batteries/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Become your own barista with the <strong>CafeTool Handheld Milk Frother</strong>. This powerful, battery-operated tool creates rich, creamy foam in under 30 seconds. Whether you enjoy lattes, cappuccinos, or whisking matcha, the high-speed stainless steel whisk delivers consistent results every time.</p><ul><li>Ergonomic soft-touch handle</li><li>Easy to clean (rinse in hot water)</li><li>Includes stainless steel stand</li></ul><p>Its compact design fits perfectly in any kitchen drawer or looks elegant on your counter. Stop overpaying for coffee house drinks and start enjoying professional-quality foam from the comfort of your home. Perfect for gifting to the coffee lover in your life!</p>",
+    "metrics": {
+      "rating": 4.3,
+      "reviewCount": 1800,
+      "tags": ["coffee", "kitchen"]
+    },
+    "metadata": { "createdAt": "2025-11-12T10:00:00Z", "isPublished": true }
+  },
+  {
+    "id": "prod_021",
+    "name": "Smart Door Lock (Keyless)",
+    "slug": "smart-door-lock",
+    "category": "Home Security",
+    "brand": "SecureHome",
+    "price": {
+      "current": 199.0,
+      "original": 249.0,
+      "currency": "USD",
+      "discountPercentage": 20,
+      "taxable": true
+    },
+    "inventory": { "sku": "SH-LOK-02", "quantity": 18, "status": "in_stock" },
+    "media": {
+      "thumbnail": "https://picsum.photos/seed/lock-front/400/400",
+      "gallery": [
+        "https://picsum.photos/seed/lock-app/800/800",
+        "https://picsum.photos/seed/lock-keypad/800/800",
+        "https://picsum.photos/seed/lock-door/800/800"
+      ]
+    },
+    "descriptionHtml": "<p>Upgrade your home security with the <strong>SecureHome Smart Door Lock</strong>. This keyless entry system offers multiple ways to unlock your door: via fingerprint, PIN code, smartphone app, or physical backup key. The auto-lock feature ensures your home is always protected, even if you forget to lock up in a hurry.</p><ul><li>Stores up to 50 fingerprints</li><li>Remote access via secure hub</li><li>Weatherproof IP65 rating</li></ul><p>Grant temporary access codes to guests or service providers and receive real-time notifications whenever someone enters your home. Finished in a sleek satin nickel, it fits seamlessly with most standard doors, combining high-tech security with a modern aesthetic.</p>",
+    "metrics": {
+      "rating": 4.6,
+      "reviewCount": 420,
+      "tags": ["security", "smart-home"]
+    },
+    "metadata": { "createdAt": "2026-01-05T09:00:00Z", "isPublished": true }
+  }
+]

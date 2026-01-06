@@ -10,7 +10,7 @@ export default async function TenantPage({ params }) {
 
   return (
     <main>
-      <ThemeResolver themeId={config.theme_id} data={config.homepage_content} />
+      <ThemeResolver themeId={config.theme_id} site={site} />
     </main>
   );
 }

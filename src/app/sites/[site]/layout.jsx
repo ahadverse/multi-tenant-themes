@@ -11,6 +11,7 @@ export default async function TenantLayout({ params, children }) {
       style={{
         "--primary": config.theme_config.primary_color,
         "--secondary": config.theme_config.secondary_color,
+        "font-family": config.theme_config.font_family,
       }}
     >
       {children}
